@@ -40,14 +40,15 @@ Here’s how to run detection depending on your source type.
 |---------------------------|-----------------|
 | **Single Image**          | ```bash
 python yolo_detect.py --model models/my_model.pt --source data/chip.jpg --source-type image
-``` |
+
 | **Folder of Images**      | ```bash
 python yolo_detect.py --model models/my_model.pt --source data/chips_folder/ --source-type folder
-``` |
+
 | **Video file**            | ```bash
 python yolo_detect.py --model models/my_model.pt --source videos/chips_video.mp4 --source-type video
-``` |
+
 | **FaceTime / USB camera** | ```bash
 python yolo_detect.py --model models/my_model.pt --source 0 --source-type usb
 ``` |
+
 
