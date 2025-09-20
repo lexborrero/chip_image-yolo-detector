@@ -31,5 +31,3 @@ It has been modified to properly support the FaceTime HD camera on macOS by usin
    git clone <repository_url>
    cd <repository_dir>
 
-
-
