@@ -35,6 +35,7 @@ It has been modified to properly support the FaceTime HD camera on macOS by usin
 
 ## Usage
 
-| **Video file**            | ```bash
+**Video file**             
+```bash
 python yolo_detect.py --model models/my_model.pt --source videos/chips_video.mp4 --source-type video
-``` |
+``` 
